@@ -5,8 +5,8 @@ public class Main{
         Autos Auto3 = new Autos("Toyota");
 
         Auto1.setAge(1978);
-        Auto2.setAge(1982);
-        Auto3.setAge(1995);
+        Auto2.setAge(2011);
+        Auto3.setAge(2020);
 
         Auto1.setColor("Rojo");
         Auto2.setColor("Blanco");
@@ -45,5 +45,10 @@ public class Main{
         System.out.print("\nAño de Fabricación: " + Auto3.getAge());
         System.out.print("\nColor del auto: " + Auto3.getColor());
         System.out.print("\nTipo de combustible: " + Auto3.getFuel() + "\n");
+
+        int sumAños = 0;
+        sumAños = Auto1.getAge() + Auto2.getAge() + Auto3.getAge();
+
+        System.out.println("\nSumatoria de los años de los autos: " + sumAños + "\n");
     }
 }
