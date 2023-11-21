@@ -4,9 +4,9 @@ public class Main{
         Autos Auto2 = new Autos("Nissan");
         Autos Auto3 = new Autos("Toyota");
 
-        Auto1.setAge(1978);
-        Auto2.setAge(2011);
-        Auto3.setAge(2020);
+        Auto1.setAge(1968);
+        Auto2.setAge(2014);
+        Auto3.setAge(2023);
 
         Auto1.setColor("Rojo");
         Auto2.setColor("Blanco");
