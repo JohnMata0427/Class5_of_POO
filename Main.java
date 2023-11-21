@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Main{
     public static void main(String[] args) {
         Autos Auto1 = new Autos("Chevrolet");
@@ -49,6 +50,9 @@ public class Main{
         int sumAños = 0;
         sumAños = Auto1.getAge() + Auto2.getAge() + Auto3.getAge();
 
-        System.out.println("\nSumatoria de los años de los autos: " + sumAños + "\n");
+        Scanner input = new Scanner(System.in);
+        System.out.println("Ingrese el nuevo modelo del auto1");
+        Auto1.setModel(input.nextLine());
+        Auto1.getModel();
     }
 }
