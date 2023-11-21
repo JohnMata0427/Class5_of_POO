@@ -6,11 +6,11 @@ public class Main{
 
         Auto1.setAge(1968);
         Auto2.setAge(2014);
-        Auto3.setAge(2023);
+        Auto3.setAge(2018);
 
         Auto1.setColor("Rojo");
         Auto2.setColor("Blanco");
-        Auto3.setColor("Negro");
+        Auto3.setColor("Azul");
 
         Auto1.setFuel("Gasolina");
         Auto2.setFuel("Diesel");
@@ -22,7 +22,7 @@ public class Main{
 
         Auto1.setPlate("PRT-4562");
         Auto2.setPlate("GTR-2345");
-        Auto3.setPlate("PMF-8674");
+        Auto3.setPlate("IPJ-8674");
 
         System.out.println("\nAutos y sus especificaciones: \n");
         System.out.println("Auto 1\n\n" + "Marca del auto: " + Auto1.getBrand());
